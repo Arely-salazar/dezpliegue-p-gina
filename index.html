@@ -1,0 +1,110 @@
+<!--Este es un comentario-->
+
+<!--DOCTYPE es una declaración de archivo tipo HTML-->
+<!DOCTYPE html>
+
+<!--html encapsula todo nuestro código - lang(lenguaje)-->
+<html lang="en">
+
+<!--head -(cabeza) metadata e información del proyecto para el navegador, también donde conectamos otros archivos-->
+<head>
+    <!-- meta -metadata  charset="UTF-8" aplica un set de carateres -->
+    <meta charset="UTF-8">
+    <!-- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title- el titulo de la pestaña de arriba-->
+    <title>Imagine Dragons</title>
+    <!--Favicon (logito de la pestaña) -->
+    <link rel="icon" href="/images/notas-musicales.png">
+    <!-- Enlace con hoja de estilo (CSS) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- TIPOGRAFÍA DE LETRA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<!-- Sección que SÍ se puede ver e interactuar -->
+<body>
+    <!-- H1 - encabezado principal -->
+    <h1 id="titulo">Imagine Dragons</h1>
+
+    <!--Div - divisores de contenido-->
+    <div class="menu">
+        <!-- NAVEGACIÓN CON ANCLAS // ID-->
+        <a class="navegacion" href="#night-visions">Night Visions</a>
+        <a class="navegacion" href="#night-visions-deluxe">Night Visions Deluxe</a>
+        <a class="navegacion" href="#smoke-mirrors">Smoke + Mirrors</a>
+        <a class="navegacion" href="#smoke-mirrors-deluxe">Smoke + Mirrors Deluxe</a>
+        <a class="navegacion" href="#evolve">Evolve</a>
+        <a class="navegacion" href="#origins">Origins</a>
+        <a class="navegacion" href="mercury">Mercury - Acts 1 & 2</a>
+    </div>
+
+
+    <!-- Div - Contenedores -->
+    <div class="div-imagenes">
+        <!-- Imágenes - src(Source / fuente) // alt (texto alternativo, info extra de la imagen)-->
+        <!-- A través de la web -->
+        <img src="https://www.coca-cola.com/content/dam/onexp/global/central/offerings/coke-studio/artists/2_Imagine_Dragons_by_Eric_Ray_Davidson_GREEN_04_1-1.jpg" alt="Imágen de Imagine Dragons">
+        <!-- Localmente -->
+        <img src="images/imagine-dragons.jpg" alt="Imágen de Imagine Dragons">
+        <img src="images/vocalista.jpg" alt="Foto del vocalista de la banda">
+    </div>
+    
+    <!-- LISTAS - ordenadas y no ordenadas-->
+    <!-- LISTAS ORDENADAS (OL) -->
+    <h3>Integrantes de la banda</h3>
+    <ol>
+        <li>Dan Reynolds</li>
+        <li>Daniel Platzaman</li>
+        <li>Daniel Wayne Sermon</li>
+        <li>Ben McKee</li>
+    </ol>
+
+    <!-- LISTAS NO ORDENADAS (UL) -->
+    <h3>Ex Integrantes</h3>
+    <ul>
+        <li>Andrew Tolman</li>
+        <li>DaniiVory</li>
+        <li>Andrew Beck</li>
+    </ul>
+
+    <!-- PARAFFOS Y NAVEGACIÓN -->
+    <!-- ATRIBUTOS EN LA ETIQUETA DE APERTURA -->
+    <h3 id="night-visions">Night Visions</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum rerum excepturi minima asperiores assumenda nisi delectus velit est sed dicta totam non placeat, debitis reiciendis, aspernatur molestiae quod cupiditate perferendis.</p>
+    
+    <h3 id="night-visions-deluxe">Night Visions Deluxe</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae facilis veritatis nam quia magni, similique, et tempore aspernatur ipsam praesentium doloribus ad quod repellat nulla exercitationem, ea accusamus doloremque ratione?</p>
+    
+    <h3 id="smoke-mirrors">Smoke + Mirrors</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sit. Ea recusandae molestiae magnam adipisci accusamus illo corporis optio, nam doloremque nulla, tempora quia, dolor excepturi ducimus nostrum aspernatur animi.</p>
+    
+    <h3 id="smoke-mirrors-deluxe">Smoke + Mirrors Deluxe</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta vel placeat adipisci quae quisquam quos doloremque sequi ut autem numquam nobis mollitia, quam maxime dolorum quis hic delectus provident consequuntur.</p>
+    
+    <h3 id="evolve">Evolve</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla porro consectetur laboriosam libero impedit delectus vitae cupiditate explicabo exercitationem incidunt fugit animi, natus enim voluptas excepturi distinctio inventore ut nihil!</p>
+    
+    <h3 id="origins">Origins</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatibus provident ducimus a repellendus voluptas asperiores quis ex similique nobis architecto, nam officia at voluptate deserunt ab corrupti ut maxime.</p>
+    
+    <h3  id="mercury">Mercury - Acts 1 & 2</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate aspernatur cumque a, quos corrupti dolores ipsa architecto harum quia porro tempore laborum ut impedit, rem ex culpa aut praesentium distinctio!</p>
+
+    <!-- IMAGEN CLICKEABLE-->
+    <!-- a - ancla anchar // elemento para redirigir a  otro sitio web o al mismo sitio web-->
+    <!-- href ( A dónde te redirige) -->
+    <h3>Escucha su último lanzamiento "Eyes Closed"</h3>
+    <a href="https://youtu.be/--AHUQRWoqw?si=nO23kJ52r3KAFRVk">
+        <img src="images/album.jpg" alt="Último albúm">
+    </a>
+
+    <div class="container">
+        <img class="logo-prueba" src="/images/notas-musicales.png" alt="logo">
+        <p>Este es un texto</p>
+    </div>
+</body>
+</html>

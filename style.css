@@ -1,0 +1,76 @@
+body{
+    /* Color de fondo */
+    background-color:#fffcfb;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 60px;
+    font-style: normal;
+
+    /* Agregar una imagen como fondo */
+    /*background: no-repeat center/100%  url(https://marketplace.canva.com/EAE87W6A6ts/1/0/900w/canva-fondo-de-pantalla-acuarela-simple-azul-rosa-PEBqw0ZY-W4.jpg*/  
+}
+
+#titulo{
+    text-align: center;
+    color: #e73a00 ;
+    font-size: 50px;
+
+}
+
+img{
+    /* Cambiar el tamaño de imagenes */ 
+    width: 200px;   /* Ancho de la imagen  */
+    height: 200px;  /* Altura de la imagen */
+    border-radius: 5%;    /* Dar borde a  */
+    padding: 10px;
+}
+
+/* Editar el menú */ 
+.menu{
+    background-color: #9abdf9;
+   /* Div flexible para moverse con los elementos */
+   display: flex; 
+   /* En la columna */
+   flex-direction: row;
+   /* Alinea items de forma centrada */
+   align-items: center;
+    
+}
+
+.navegacion{
+    /* color de texto */
+    color: #060606;
+    /* posicion de los elementos*/
+    text-align: center;
+    /* espacio  */
+    padding: 2%;
+    /* linea debajo de la ancla */
+    text-decoration: none; 
+    
+}
+
+.div-imagenes{
+    /* Div flexible para moverse con los elementos */
+   display: flex; 
+   /* En la columna */
+   flex-direction: row;
+   /* Alinea items de forma centrada */
+   align-items: center;
+
+}
+
+.container{
+    background-color: #9abdf9;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container{
+    width: 10%;
+    height: 10%;
+    /* margin-right (margen de un lado, el derecho para el espacio */
+    margin-right: 30px;
+}
+
+
+
