@@ -1,76 +1,111 @@
 body{
-    /* Color de fondo */
-    background-color:#fffcfb;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 60px;
-    font-style: normal;
-
-    /* Agregar una imagen como fondo */
-    /*background: no-repeat center/100%  url(https://marketplace.canva.com/EAE87W6A6ts/1/0/900w/canva-fondo-de-pantalla-acuarela-simple-azul-rosa-PEBqw0ZY-W4.jpg*/  
+    background-color: rgb(248, 244, 239);
 }
 
+/* TÍTULO*/
 #titulo{
     text-align: center;
-    color: #e73a00 ;
-    font-size: 50px;
-
+    color: brown;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /*padding: 3%;*/
 }
-
-img{
-    /* Cambiar el tamaño de imagenes */ 
-    width: 200px;   /* Ancho de la imagen  */
-    height: 200px;  /* Altura de la imagen */
-    border-radius: 5%;    /* Dar borde a  */
-    padding: 10px;
-}
-
-/* Editar el menú */ 
+/*EDITAR EL DIV DEL MENÚ*/
 .menu{
-    background-color: #9abdf9;
-   /* Div flexible para moverse con los elementos */
-   display: flex; 
-   /* En la columna */
-   flex-direction: row;
-   /* Alinea items de forma centrada */
-   align-items: center;
+    /*HACER FLEXIBLE EL DIV PARA MOVER LOS ELEMENTOS*/
+    display: flex;
+    /*CENTRAR EL CONTENIDO DEL DIV*/
+    justify-content: center;
+    /*COLOR*/
+    background-color: rgb(202, 146, 146);
+    /*cambiar el ancho*/
+    width: 100%;
     
 }
 
 .navegacion{
-    /* color de texto */
-    color: #060606;
-    /* posicion de los elementos*/
+    /*ESPACIO*/
+    padding: 1%;
+    /* COLOR DE LA LETRA*/
+    color: rgb(246, 244, 244);
+    /*QUITARLA LÍENA DEL ANCLA*/
+    text-decoration:none;
+    /*CENTRAR EL TEXTO*/
     text-align: center;
-    /* espacio  */
-    padding: 2%;
-    /* linea debajo de la ancla */
-    text-decoration: none; 
-    
-}
-
-.div-imagenes{
-    /* Div flexible para moverse con los elementos */
-   display: flex; 
-   /* En la columna */
-   flex-direction: row;
-   /* Alinea items de forma centrada */
-   align-items: center;
 
 }
+.navegacion:hover{
+    color: brown;
+}
 
-.container{
-    background-color: #9abdf9;
+.div-class{
+    /*HACER FLEXIBLE EL DIV PARA MOVER LOS ELEMENENTOS*/
     display: flex;
-    align-items: center;
+    /*CENTRAR LAS IMAGENES*/
+    justify-content: center;
+
+}
+.imagen{
+    /*cambiar el ancho imagen */
+    width: 30%;
+    /* cambiar la altura de la imagen*/
+    height: 30%;
+    /*bordes de la imagenes*/
+    border-radius: 3px ;
+    /* separación de las imagnes*/
+    padding: 2%;
+
+}
+/* CENTRAR EL DIV DE LAS IMAGENES */
+.div-imagenes{
+    display: flex;
+    justify-content: center;
 }
 
-.logo-container{
-    width: 10%;
-    height: 10%;
-    /* margin-right (margen de un lado, el derecho para el espacio */
-    margin-right: 30px;
+.disco-lanzamiento{
+     /*cambiar el ancho imagen */
+     width: 40%;
+     /* cambiar la altura de la imagen*/
+     height: 40%;
+     /*bordes de la imagenes*/
+     border-radius: 3px ;
+     /*centrar la imagen*/
+     text-align: center;
 }
 
+.franja{
+    background-color: rgb(233, 210, 210);
 
+}
+
+.franja-n{
+    background-color: rgb(64, 56, 72);
+
+}
+
+.franja-m{
+    background-color: rgb(160, 32, 40);
+
+}
+
+.franja-o{
+    background-color: rgb(40, 80, 56);
+
+}
+
+.franja-e{
+    background-color: rgb(24, 64, 96);
+
+}
+
+.franja-skd{
+    background-color: rgb(148, 114, 40);
+
+}
+
+.disco{
+    color: white;
+}
 
