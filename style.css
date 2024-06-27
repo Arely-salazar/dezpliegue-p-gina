@@ -66,9 +66,9 @@ body{
 
 .disco-lanzamiento{
      /*cambiar el ancho imagen */
-     width: 40%;
+     width: 200px;
      /* cambiar la altura de la imagen*/
-     height: 40%;
+     height: 200px;
      /*bordes de la imagenes*/
      border-radius: 3px ;
      /*centrar la imagen*/
@@ -76,7 +76,7 @@ body{
 }
 
 .franja{
-    background-color: rgb(233, 210, 210);
+    background-color: rgb(190, 163, 163);
 
 }
 
@@ -108,4 +108,13 @@ body{
 .disco{
     color: white;
 }
+.franja-disco{
+    display: list-item;
+    background-color: rgb(190, 163, 163);
+    height: 40%;
 
+}
+.div-disco{
+    text-align: center;
+    height: 20%;
+}
